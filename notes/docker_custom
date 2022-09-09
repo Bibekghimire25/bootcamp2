@@ -1,0 +1,1 @@
+docker run --name takeo-de-machine -it -p 2022:22 -p 1088:8088 -p 11870:9870 -p 18010:16010 -p 18030:16030 -p 52000:3306 --env="MYSQL_ROOT_PASSWORD=root1234" -d imrankhan1/takeo-de bash
